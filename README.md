@@ -1,14 +1,35 @@
-## Getting Started
+## Snake Game
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+The snake game was created back in the 1970s. And int the 1990s, Nokia had this version of the snake game in all its mobile phone. 
 
-## Folder Structure
+## Rules
 
-The workspace contains two folders by default, where:
+The game is related to moving to moving a snakehead by using the arrows left, right, up and down to eat an apple. 
+On eating the apple, the snakes becomes one block bigger. 
+If the head of the snake touched any part of its body, the game is over. 
+The score is dependent on number of apples eaten. 
+Each apple eaten gives you an increase in score by five points.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Setup
 
-## Dependency Management
+#### Java Setup
 
-The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
+Make sure to install Java 8 or further versions in your linux/Windows/Mac OS. 
+This particular program has been made in Visual Studio Code, but Eclpse and Intellij Idea and other IDEs can be used as well. 
+JAVA needs to be set up by setting the environment variables for JAVA_HOME and PATH: 
+
+JAVA_HOME="/Desktop/jdk1.8.0_73"
+export JAVA_HOME
+PATH=$JAVA_HOME/bin:$PATH
+export PATH
+
+## Setting up the IDE
+
+Whichever IDE you are using, you first need to open a project. 
+After this, two folders namely src and lib will be visible. 
+Left click on the src folder, and create a class(Eclipse/Intellij) or a new file(Visual Studio Code).
+Once this is done, and a new window opens with the java class visible, start coding.
+
+This program need two classes-
+1. Main.java
+2. Game.java
